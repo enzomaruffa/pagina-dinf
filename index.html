@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>emm17</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  </head>
+
+  <body>
+    <section class="hero index-banner-background is-fullheight">
+      <div class="hero-head">
+        <nav class="navbar ">
+          <div class="navbar-brand">
+            <div class="navbar-item"> emm17 </div>
+            <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="navbar-menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="navbar-menu" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item navbar-cool-item">
+                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="pages/page-1.html">EU</a></div>
+              </div>
+              <div class="navbar-item navbar-cool-item">
+                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="pages/page-2.html">CURSO</a></div>
+              </div>
+              <div class="navbar-item navbar-cool-item">
+                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="pages/page-3.html">PROJETOS</a></div>
+              </div>
+              <div class="navbar-item navbar-cool-item">
+                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="pages/page-4.html">INTERESSES</a></div>
+              </div>
+              <div class="navbar-item navbar-cool-item">
+                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="pages/page-5.html">CONTATO</a></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="level">
+            <div class="level-item">
+              <h1 class="index-title">
+                enzo maruffa
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot"></div>
+    </section>
+
+    <script src="js/animations.js"></script>
+    <script>
+      /* BULMA NAVBAR */
+      document.addEventListener('DOMContentLoaded', function () {
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+              // Get the target from the "data-target" attribute
+              var target = $el.dataset.target;
+              var $target = document.getElementById(target);
+              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+              $el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+            });
+          });
+        }
+      });
+
+      /* ------------------------ */
+
+      $(document).ready(function(){
+
+        /* Set navbar itens size */
+        var maxWidth = -1;
+        $('.navbar-item-wrapper').each(function() {
+             maxWidth = maxWidth > $(this).width() ? maxWidth : $(this).width();
+        })
+        .width(maxWidth);
+      });
+
+
+
+      </script>
+</html>
