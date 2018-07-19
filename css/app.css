@@ -1,0 +1,32 @@
+body, h1, h2, h3, h4, h5, h6, p {
+	font-family: montserrat, sans-serif;
+}
+
+.top-bar__item { transition: all .2s ease-in-out; }
+.top-bar__item:hover { transform: scale(1.2); }
+
+.header {
+	font-size: 4.2em;
+}
+
+.subheader {
+	font-size: 1.2em;
+}
+
+.banner {
+	background-color: #222;
+	color: #eee;
+} 
+
+#wordcloud_canvas {
+	width: 100%;
+	display: block;    
+	position: relative;
+    overflow: hidden;
+}
+
+
+.section-title-wrapper {
+	background-color: #222;
+	color: #eee;
+}

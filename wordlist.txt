@@ -1,0 +1,13 @@
+alchemy, 5, personal
+data science, 10, professional
+statistics, 12, professional personal
+hermetism, 4, personal
+tea, 2, personal
+chopp, 2, personal
+factorio, 3, personal
+python, 14, professional
+westworld, 8, personal
+marvel, 8, personal
+c, 10, professional
+data visualization, 12, professional
+web development, 6, professional

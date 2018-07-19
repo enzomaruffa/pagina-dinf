@@ -3,109 +3,125 @@
   <head>
     <meta charset="utf-8">
     <title>emm17</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!-- CSS -->   
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   </head>
 
+  <!-- -----------------BODY--------------- -->
+
   <body>
-    <!-- Banner -->
-    <section class="hero index-banner-background is-fullheight">
-      <div class="hero-head">
-        <nav class="navbar navbar-bg">
-          <div class="navbar-brand">
-            <div class="navbar-item navbar-title"> emm17 </div>
-            <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="navbar-menu" aria-expanded="false">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-          <div id="navbar-menu" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item navbar-cool-item">
-                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="#EU">EU</a></div>
-              </div>
-              <div class="navbar-item navbar-cool-item">
-                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="#">CURSO</a></div>
-              </div>
-              <div class="navbar-item navbar-cool-item">
-                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="#">PROJETOS</a></div>
-              </div>
-              <div class="navbar-item navbar-cool-item">
-                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="#">INTERESSES</a></div>
-              </div>
-              <div class="navbar-item navbar-cool-item">
-                <div class="navbar-item-wrapper"><a class="navbar-cool-link" href="#">CONTATO</a></div>
-              </div>
-            </div>
-          </div>
-        </nav>
+    <div class="top-bar white-background">
+      <div class="top-bar-left">
+        <div class="">emm17</div>
       </div>
-      <div class="hero-body hero-bg">
-        <div class="container">
-          <div class="level">
-            <div class="level-item">
-              <h1 class="index-title">
-                enzo maruffa
-              </h1>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li class="top-bar__item"><a href="#bio">bio</a></li>
+            <li class="top-bar__item"><a href="#skills">competências</a></li>
+            <li class="top-bar__item"><a href="#experiencias">experiências</a></li>
+            <li class="top-bar__item"><a href="#projetos">projetos</a></li>
+            <li class="top-bar__item"><a href="#contato">contato</a></li>
+          </ul>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <!-- Banner -->
+    <div class="callout large banner">
+      <div class="text-center">
+        <h1 class="header">enzo maruffa</h1>
+        <h2 class="subheader">ou emm17, para as máquinas do dep.</h2>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <!-- Bio -->
+      <section id="bio">
+        <div class="grid-x align-center">
+          <div class="cell medium-12">
+            <div class="section-title-wrapper">
+              <h1 class="text-center section-title">bio</h1>  
             </div>
+          </div>
+          <div class="cell small-12">
+            <p>olá! meu nome é enzo :). sou estudante de ciência da computação na UFPR, Universidade Federal do Paraná.</p>
+            <p>tenho alguns interesses meio diversos. acho que você consegue ver melhor eles aqui: </p>
+            <div id="wordcloud_canvas">PLACEHOLDER</div>
           </div>
         </div>
-      </div>
-      <div class="hero-foot"></div>
+      </section>
+
+        <!-- Skills -->
+      <section id="skills">
+        <div class="grid-x align-center">
+          <div class="cell medium-12">
+            <div class="section-title-wrapper">
+              <h1 class="text-center section-title">competências</h1>  
+            </div>
+          </div>
+          <div class="cell small-12">
+            <p>olá! meu nome é enzo :). sou estudante de ciência da computação na UFPR, Universidade Federal do Paraná.</p>
+            <p>tenho alguns interesses meio diversos. acho que você consegue ver melhor eles aqui: </p>
+            <div id="wordcloud_canvas">PLACEHOLDER</div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Experiencias -->
+      <section id="experiencias">
+        <div class="grid-x align-center">
+          <div class="cell medium-12">
+            <div class="section-title-wrapper">
+              <h1 class="text-center section-title">experiências</h1>  
+            </div>
+          </div>
+          <div class="cell small-12">
+            <p>olá! meu nome é enzo :). sou estudante de ciência da computação na UFPR, Universidade Federal do Paraná.</p>
+            <p>tenho alguns interesses meio diversos. acho que você consegue ver melhor eles aqui: </p>
+            <div id="wordcloud_canvas">PLACEHOLDER</div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Projetos -->
+      <section id="projetos">
+        <div class="grid-x align-center">
+          <div class="cell medium-12">
+            <div class="section-title-wrapper">
+              <h1 class="text-center section-title">projetos</h1>  
+            </div>
+          </div>
+          <div class="cell small-12">
+            <p>olá! meu nome é enzo :). sou estudante de ciência da computação na UFPR, Universidade Federal do Paraná.</p>
+            <p>tenho alguns interesses meio diversos. acho que você consegue ver melhor eles aqui: </p>
+            <div id="wordcloud_canvas">PLACEHOLDER</div>
+          </div>
+        </div>
+      </section>
+    </div>    
+    
+    <!-- Contato -->
+    <section id="contato">  
+
     </section>
 
-    <!-- EU -->
-    <section id="EU">
-      Olá! Meu nome é Enzo Maruffa Moreira
-
-    </section>
-
-
-
-    <!-- Scripts -->
-    <script src="js/animations.js"></script>
+    <!-- Scripts -->    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script src="js/d3-wordcloud.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script>      
-      /* BULMA NAVBAR */
-      document.addEventListener('DOMContentLoaded', function () {
-        // Get all "navbar-burger" elements
-        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-        // Check if there are any navbar burgers
-        if ($navbarBurgers.length > 0) {
-          // Add a click event on each of them
-          $navbarBurgers.forEach(function ($el) {
-            $el.addEventListener('click', function () {
-              // Get the target from the "data-target" attribute
-              var target = $el.dataset.target;
-              var $target = document.getElementById(target);
-              // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-              $el.classList.toggle('is-active');
-              $target.classList.toggle('is-active');
-            });
-          });
-        }
-      });
-
-      /* ------------------------ */
-
-      $(document).ready(function(){
-
-        /* Set navbar itens size */
-        var maxWidth = -1;
-        $('.navbar-item-wrapper').each(function() {
-             maxWidth = maxWidth > $(this).width() ? maxWidth : $(this).width();
-        })
-        .width(maxWidth);
-      });
-
-      </script>
+    </script>
+  </body>
 </html>
