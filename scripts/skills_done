@@ -1,0 +1,2 @@
+ dev_list = [' dev', [' programming', ' webdev', ' devops'], [['python', ' 70', ' programming'], ['c', ' 80', ' programming'], ['javascript', ' 50', ' webdev'], ['css', ' 50', ' webdev'], ['java', ' 75', ' programming'], ['git', ' 60', ' devops']]]
+ pessoa_list = [' pessoa', [' equipe', ' pessoal'], [['liderança', ' 90', ' equipe'], ['teamwork', ' 90', ' equipe'], ['pitching', ' 85', ' pessoal']]]

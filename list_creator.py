@@ -1,6 +1,6 @@
 
 # Get file
-file = open("wordlist.txt")
+file = open("wordlist")
 
 # Get lines from file
 lines = [line.rstrip('\n') for line in file]

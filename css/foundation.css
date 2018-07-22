@@ -1698,7 +1698,7 @@ ol.list-upper-roman {
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
-  .button:hover, .button:focus {
+  .button:hover {
     background-color: black;
     color: #fefefe; }
   .button.tiny {

@@ -18,6 +18,21 @@ body, h1, h2, h3, h4, h5, h6, p {
 	color: #eee;
 } 
 
+.wordcloud_button {
+	background-color: #fff;
+	border-color: #222;
+	color: #222;
+	transition: all .2s ease-in-out;
+}
+
+.wordcloud_button--active {
+	background-color: #5B2C6F;
+	border-color: #5B2C6F;
+	color: #fff;
+	transition: all .2s ease-in-out;
+}
+
+
 #wordcloud_canvas {
 	width: 100%;
 	display: block;    
@@ -25,8 +40,23 @@ body, h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
 }
 
-
 .section-title-wrapper {
 	background-color: #222;
 	color: #eee;
+}
+
+.star-background {
+	color: #222;
+}
+
+.skill-name {
+	font-size: 1.5em;
+}
+
+.skill-item { 
+	transition: all .2s ease-in-out; 
+}
+
+.skill-item:hover { 
+	transform: scale(1.1);
 }
